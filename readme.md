@@ -11,3 +11,22 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 ## First setup
 
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+
+##Steps to install and run the repo on your local machine:
+ 1) Install the Docker from the given link below:
+	Link : https://www.docker.com/products/docker-desktop/
+    if done already ignore this step.
+ 
+ 2) Check if docker is running or not using
+	docker -v    &
+	docker-compose -v
+    in your terminal
+
+ 3) Through your terminal go to your root directory where your Anythink file resides.
+    and run 
+	docker-compose up 
+    in your terminal 
+
+ It will take some time to download the container.
+	
+	
